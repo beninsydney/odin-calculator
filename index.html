@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="calculator.js"></script>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display">0</div>
+      <menu class="options">
+        <button>Clear</button>
+        <button>Backspace</button>
+      </menu>
+      <menu class="input">
+        <div class="row">
+          <button class="numeric">1</button>
+          <button class="numeric">2</button>
+          <button class="numeric">3</button>
+          <button data-operation="/">&divide;</button>
+        </div>
+        <div class="row">
+          <button class="numeric">4</button>
+          <button class="numeric">5</button>
+          <button class="numeric">6</button>
+          <button data-operation="*">&times;</button>
+        </div>
+        <div class="row">
+          <button class="numeric">7</button>
+          <button class="numeric">8</button>
+          <button class="numeric">9</button>
+          <button data-operation="+">&plus;</button>  
+        </div>
+        <div class="row">
+          <button>&period;</button>
+          <button class="numeric">0</button>
+          <button>&equals;</button>
+          <button data-operation="-">&minus;</button>
+        </div>
+      </menu>
+    </div>
+  </body>
+</html>
